@@ -64,10 +64,38 @@
       }
 
     /* 👉 Task 2 - [HINT] the flex container needs to change direction */
+    #flexContainer2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
 
     /* 👉 Task 3 - [HINT] the flex direction can be reversed */
+    #flexContainer3 {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      align-items: end;
+    }git 
 
     /* 👉 Task 4 - [HINT] the flex items need a new order */
+    #flexContainer4 {
+      display: flex;
+      flex-direction: row;
+      align-items: end;
+      justify-content: space-around;
+    }
+
+    #flexContainer4 .flexItem:nth-child(1) {
+      order: 2;
+    }
+    #flexContainer4 .flexItem:nth-child(2) {
+      order: 3;
+    }
+    #flexContainer4 .flexItem:nth-child(3) {
+      order: 1;
+    }
 
     /* 👉 Task 5 - [HINT] research align-self */
 
